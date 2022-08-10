@@ -7,3 +7,9 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+@media screen and (max-width: 576px) {
+  .slide-img {
+    min-height: 40vh;
+    object-fit: cover;
+  }
+}
